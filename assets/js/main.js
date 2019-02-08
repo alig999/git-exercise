@@ -3,3 +3,11 @@ function sayHello() {
 }
 
 sayHello();
+
+let name = 'Ali';
+
+function sayMyName(name) {
+  console.log('Oh Hello ' + name);
+}
+
+sayMyName(name);
